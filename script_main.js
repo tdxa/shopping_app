@@ -8,4 +8,9 @@ ipcRenderer.on('item:add', function(e,item){
     const itemText = document.createTextNode(item);
     li.appendChild(itemText);
     ul.appendChild(li);
-})
+});
+
+//Clear items
+ipcRenderer.on('item:clear', function(){
+    ul.innerHTML='';
+});
