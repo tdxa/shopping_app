@@ -9,6 +9,7 @@
   "author": "tdxa",
   "license": "MIT",
   "dependencies": {
-    "electron": "^11.0.1"
+    "electron": "^11.0.1",
+    "electron-version": "^2.0.1"
   }
 }
