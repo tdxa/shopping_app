@@ -3,16 +3,24 @@
 
 <head>
     <title>Add shopping list item</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <form>
-        <div>
-            <label>Enter new item</label>
-            <input type="text" id="item" autofocus>
-        </div>
-        <button type="submit">Add item</button>
-    </form>
+    <div class="container">
+        <form>
+            <div>
+                <label>Enter new item</label>
+                <input type="text" id="item" autofocus>
+            </div>
+            <button class="btn waves-effect waves-1" type="submit">
+                <i class="material-icons right">add</i>Add item</button>
+        </form>
+    </div>
     <script type="text/javascript" src="script_add.js"></script>
 </body>
+
 </html>
